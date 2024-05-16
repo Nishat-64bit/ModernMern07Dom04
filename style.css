@@ -1,0 +1,126 @@
+/* custom css */
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 0; */
+    box-sizing: border-box;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+    min-height: 100vh;
+    border: 1px solid red;
+    background: linear-gradient(rgba(0, 128, 128, 0.692),rgba(255, 192, 203, 0.671) , rgba(0, 0, 255, 0.712));
+}
+ .title{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+ }
+ .PlayerOne{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+ }
+ .guessBoxTitle{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+ }
+ .playertwo{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+ }
+.inputField{
+    padding: 10px 20px;
+
+}
+.GuessField{
+    padding: 10px 20px;
+}
+/* input field e kicu likle dekba ekta line ase seta ke focus bole */
+.inputField:focus{
+    outline: none;
+}
+.GuessField:focus{
+    outline: none;
+}
+
+.Start{
+    padding: 10px 20px;
+    background: teal;
+    border: 0;
+    border: 1px solid teal;
+    color: #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:400;
+    font-size:0.8rem;
+}
+.Guess{
+    padding: 10px 20px;
+    background: teal;
+    border: 0;
+    border: 1px solid teal;
+    color: #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:400;
+    font-size:0.8rem;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* ek e sate 2ta display property use kora jabe na tai another 1stparent div e block and 2nd parent div none */
+    
+}
+.GuessBox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.PlayerOneBox{
+display: block;
+}
+.PlayerTwoBox{
+display: none;
+}
+.Playagain{
+    display: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: teal;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
