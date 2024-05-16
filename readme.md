@@ -10,9 +10,11 @@
     // isNan  aeta number na 
     // isNaN(10) // false kintu 10 to number tie false return korbe
     // isNaN("Nishat") // true karon Nishat holo string , aeta number na 
-    //catch playerOneBox and playerTwoBox
-    const PlayerOneBox = document.querySelector('.PlayerOneBox')
 
+    ================== Game start ==========================================
+    //catch playerOneBox and playerTwoBox
+
+    const PlayerOneBox = document.querySelector('.PlayerOneBox')
     const PlayerTwoBox = document.querySelector('.PlayerTwoBox')
 
 
@@ -173,6 +175,7 @@
             location.reload();
         }
     })
+    ============================== Game over =========================================================
     ------------------------------------------------------------------    
                 know about js Dom 04 Number Guessing Game  <End>
     -------------------------------------------------------------------
